@@ -1,0 +1,17 @@
+package org.example;
+
+public class Animal {
+    protected static int animalCount = 0;
+
+    public Animal() {
+        animalCount++;
+    }
+
+    public void run(int distance) {
+        System.out.println("Животное пробежало " + distance + " м.");
+    }
+
+    public void swim(int distance) {
+        System.out.println("Животное проплыло " + distance + " м.");
+    }
+}
